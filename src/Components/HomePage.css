@@ -53,82 +53,6 @@ body{
     box-shadow: burlywood 10px 10px 100000px;
 }
 
-.div1 {
-    width: 100%;
-    height: 60rem;
-    background: rgba(222, 184, 135, 0.563);
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* display: none; */
-    transform: translateX(100%);
-    overflow: hidden!important;
-}
-
-.div2 {
-    /* display: none; */
-    width: 100%;
-    height: 60rem;
-    background: rgba(222, 184, 135, 0.564);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-    overflow: hidden!important;
-}
-
-.div3 {
-    /* display: none; */
-    width: 100%;
-    height: 60rem;
-    background: rgba(222, 184, 135, 0.579);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(100%);
-    overflow: hidden !important;
-}
-
-.div4 {
-    width: 100%;
-    /* display: none; */
-    height: 60rem;
-    background: rgba(222, 184, 135, 0.618);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(-100%);
-    overflow: hidden !important;
-}
-
-.container-fluid button:hover+.div1 {
-    transform: translateX(80.8%) !important;
-    transition: all 1s!important;
-    /* display: block; */
-}
-
-.container-fluid button:hover+.div1+.div2 {
-    transform: translateX(-59%) !important;
-    transition: all 1s!important;
-    /* display: block; */
-}
-
-.container-fluid button:hover+.div1+.div2+.div3 {
-    transform: translateY(41.6%) !important;
-    transition: all 1s!important;
-    /* display: block; */
-}
-
-.container-fluid button:hover+.div1+.div2+.div3+.div4 {
-    transform: translateY(-80.7%) !important;
-    transition: all 1s!important;
-    /* display: block; */
-}
-
-
-
-
-
 
 
 
@@ -149,72 +73,41 @@ body{
     .container-fluid button {
         font-size: 1.8rem !important;
     }
-    .container-fluid button:hover+.div1 {
-        transform: translateX(84.4%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2 {
-        transform: translateX(-54%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2+.div3 {
-        transform: translateY(37%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2+.div3+.div4 {
-        transform: translateY(-79.2%) !important;
-
-    }
+ 
     
 }
 
 @media(max-width:992px) {
     .container-fluid{
-        text-align: left;
+        text-align: left!important;
     }
     .container-fluid button {
+      
         font-size: 1.3rem !important;
         text-align: left!important;
     }
-    .container-fluid button:hover+.div1 {
-        transform: translateX(56.7%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2 {
-        transform: translateX(-88.5%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2+.div3 {
-        transform: translateY(35%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2+.div3+.div4 {
-        transform: translateY(-78.2%) !important;
-        
-    }
+   
     
 }
+
+
+@media (max-width:768px) {
+    .container-fluid button {
+        position: relative;
+        left: -7rem!important;
+        font-size: 1.3rem !important;
+        text-align: left!important;
+    }
+
+}
+
+
 
 @media(max-width:576px) {
     .container-fluid button {
         font-size: .8rem !important;
         text-align: left!important;
     padding: .5rem 1rem;
-    }
-    .container-fluid button:hover+.div1 {
-        transform: translateX(66.8%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2 {
-        transform: translateX(-70.8%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2+.div3 {
-        transform: translateY(30.7%) !important;
-        
-    }
-    .container-fluid button:hover+.div1+.div2+.div3+.div4 {
-        transform: translateY(-76.6%) !important;
-        
+    position: relative;
     }
 }
