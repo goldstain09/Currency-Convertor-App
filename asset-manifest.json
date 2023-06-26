@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Currency-Convertor-App/static/css/main.af07f943.css",
-    "main.js": "/Currency-Convertor-App/static/js/main.b172dd2d.js",
+    "main.css": "/Currency-Convertor-App/static/css/main.42b192b6.css",
+    "main.js": "/Currency-Convertor-App/static/js/main.ca6b9544.js",
     "static/media/main_bg1.jpg": "/Currency-Convertor-App/static/media/main_bg1.a3e8eee10bf1dd6c9a0e.jpg",
     "index.html": "/Currency-Convertor-App/index.html",
-    "main.af07f943.css.map": "/Currency-Convertor-App/static/css/main.af07f943.css.map",
-    "main.b172dd2d.js.map": "/Currency-Convertor-App/static/js/main.b172dd2d.js.map"
+    "main.42b192b6.css.map": "/Currency-Convertor-App/static/css/main.42b192b6.css.map",
+    "main.ca6b9544.js.map": "/Currency-Convertor-App/static/js/main.ca6b9544.js.map"
   },
   "entrypoints": [
-    "static/css/main.af07f943.css",
-    "static/js/main.b172dd2d.js"
+    "static/css/main.42b192b6.css",
+    "static/js/main.ca6b9544.js"
   ]
 }
