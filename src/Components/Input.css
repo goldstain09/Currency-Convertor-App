@@ -1,0 +1,147 @@
+body{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+.container {
+    padding: 15rem 0;
+}
+
+.container>.row {
+    display: flex;
+    border-radius: 20px !important;
+    padding: 7rem 0;
+    background: rgba(222, 184, 135, 0.73);
+    box-shadow: inset 0px 0px 10px burlywood;
+}
+
+.container>.row>.col:first-child input {
+    margin: 4rem 0 1rem 0;
+    background: transparent !important;
+    /* border: none !important; */
+    border: none!important;
+    border-bottom: solid 1px white!important;
+    outline: none !important;
+    font-size: 3rem;
+    border-radius: 7px;
+    font-family: 'Barriecito', cursive;
+    width:70%;
+}
+.container>.row>.col:first-child input+p{
+    font-size: 3rem!important;
+    margin-top: 4rem;
+    width:30%;
+    font-family: 'Barriecito', cursive;
+
+}
+
+input:read-only {
+    background: transparent !important;
+    border: none;
+    outline: none !important;
+    font-size: 3rem;
+    margin: 4rem 0 1rem 0;
+    font-family: 'Barriecito', cursive;
+}
+
+label>h1 {
+    font-family: 'Barriecito', cursive;
+    font-size: 3rem;
+    text-align: left;
+}
+
+select {
+    font-family: 'Barriecito', cursive;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+
+
+
+
+
+
+
+
+@media(max-width:992px) {
+    
+    .container {
+        padding: 10rem 0;
+    }
+    
+    .container>.row>.col:first-child input {
+        font-size: 1.5rem;
+    }
+    
+    label>h1 {
+        font-size: 2rem;
+
+    }
+    
+    select {
+        font-size: 1.5rem;
+        
+    }
+    
+    input:read-only {
+        font-size: 1.5rem;
+
+    }
+}
+
+@media(max-width:585px) {
+    
+    .container {
+        padding: 6rem 0 0 0;
+    }
+    .container>.row {
+        display: block;
+    }
+    .container>.row div{
+        width: 90%;
+    }
+    
+    .container>.row>.col:first-child input {
+        font-size: 1.8rem;
+        margin:0 0 0 0!important;
+        width: 100%;
+    }
+    
+    label>h1 {
+        font-size: 2rem;
+        margin: 1rem 0;
+        
+    }
+    
+    select {
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+    
+    input:read-only {
+        margin: 1rem 0 0 0!important;
+        width: 100%;
+        font-size: 1.8rem;
+
+    }
+}
