@@ -1,113 +1,90 @@
-body{
-    overflow: hidden!important;
+body {
+  overflow: hidden !important;
 }
 
 /* -------------------------------Scroll Bar------------------------------- */
 /* ------------------------------------------------------------------------ */
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-button {
-    display: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb {
-    display: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-track {
-    display: none;
+  display: none;
 }
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
 
-
-
-
 .container-fluid {
-    height: 100vh;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.684), rgba(0, 0, 0, 0.689)), url('./Images/main_bg1.jpg');
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    text-align: center;
+  height: 100vh;
+  background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.684),
+      rgba(0, 0, 0, 0.689)
+    ),
+    url("./Images/main_bg1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 .container-fluid button {
-    margin-top: 15rem;
-    background: transparent;
-    border-radius: 8px;
-    border: 1px solid rgb(255, 255, 255);
-    outline: none;
-    color: white;
-    font-size: 3rem;
-    padding: 1rem 3rem;
+  margin-top: 15rem;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  color: white;
+  font-size: 3rem;
+  padding: 1rem 3rem;
 }
-
 
 .container-fluid button:hover {
-    background: rgba(0, 0, 0, 0.399);
-    transition: all .4s;
-    color: burlywood;
-    box-shadow: burlywood 10px 10px 100000px;
+  background: rgba(0, 0, 0, 0.399);
+  transition: all 0.4s;
+  color: burlywood;
+  box-shadow: burlywood 10px 10px 100000px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media query  */
-@media(max-width:1400px) {
-    .container-fluid button {
-        font-size: 1.8rem !important;
-    }
- 
-    
+@media (max-width: 1400px) {
+  .container-fluid button {
+    font-size: 1.8rem !important;
+  }
 }
 
-@media(max-width:992px) {
-    .container-fluid{
-        text-align: left!important;
-    }
-    .container-fluid button {
-      
-        font-size: 1.3rem !important;
-        text-align: left!important;
-    }
-   
-    
+@media (max-width: 992px) {
+  .container-fluid {
+    text-align: left !important;
+  }
+  .container-fluid button {
+    font-size: 1.3rem !important;
+    text-align: left !important;
+  }
 }
 
-
-@media (max-width:768px) {
-    .container-fluid button {
-        position: relative;
-        left: -7rem!important;
-        font-size: 1.3rem !important;
-        text-align: left!important;
-    }
-
-}
-
-
-
-@media(max-width:576px) {
-    .container-fluid button {
-        font-size: .8rem !important;
-        text-align: left!important;
-    padding: .5rem 1rem;
+@media (max-width: 768px) {
+  .container-fluid button {
     position: relative;
-    }
+    left: -7rem !important;
+    font-size: 1.3rem !important;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid button {
+    font-size: 0.8rem !important;
+    text-align: left !important;
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
 }
